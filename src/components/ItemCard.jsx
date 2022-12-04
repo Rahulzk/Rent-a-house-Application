@@ -7,7 +7,6 @@ import { CardActionArea } from '@mui/material';
 
 
 const ItemCard = (item) => {
-    // console.log(item);
     const {image_url,cost,location,PropertyType,desc,area} = item.item;
   return (
     <Card sx={{ width: 300 }} style={{margin:35}}>
